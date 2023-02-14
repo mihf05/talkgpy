@@ -1,0 +1,6 @@
+gradio
+numpy
+pyChatGPT
+git+https://github.com/openai/whisper.git
+--upgrade git+https://github.com/huggingface/diffusers.git transformers accelerate scipy
+whisper

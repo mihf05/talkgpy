@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "F:\talk.py", line 1, in <module>
+    import whisper
+  File "C:\Users\mdirf\AppData\Local\Programs\Python\Python311\Lib\site-packages\whisper.py", line 69, in <module>
+    libc = ctypes.CDLL(libc_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mdirf\AppData\Local\Programs\Python\Python311\Lib\ctypes\__init__.py", line 366, in __init__
+    if '/' in name or '\\' in name:
+       ^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
